@@ -7,7 +7,10 @@
         Password  : <input type="password" name="password" [(ngModel)]="password">
         <!-- Entered user Name = {{username}} -->
         
-        <button (click)=handleLogin() class="btn btn-success">Login</button>
+       <!--  <button (click)=handleLogin() class="btn btn-success">Login</button> -->
+        <!-- <button (click)=handleBasicAuthLogin() class="btn btn-success">Login</button> -->
+        <button (click)=handleJwtBasicAuthLogin() class="btn btn-success">Login</button>
+        
     </div>
     
 </div>
